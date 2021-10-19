@@ -1,0 +1,39 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "strictPropertyInitialization": false,
+        "skipLibCheck": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "sourceMap": false,
+        "declaration": true,
+        "baseUrl": "./",
+        "types": [
+            "react",
+            "systemjs"
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "../../../node_modules/@types"
+        ],
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    },
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

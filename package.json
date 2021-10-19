@@ -1,0 +1,18 @@
+{
+    "name": "singlespaplayground",
+    "description": "A trial of single-spa",
+    "version": "0.0.1",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "start": "yarn --cwd packages/root start & yarn --cwd packages/nav start & yarn --cwd packages/cheese start & yarn --cwd packages/parcel start & yarn --cwd packages/settings start & yarn --cwd packages/ui-lib start & yarn --cwd packages/subpagea start & yarn --cwd packages/subpageb start"
+    },
+    "devDependencies": {
+        "prettier": "^2.4.1"
+    },
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    }
+}
